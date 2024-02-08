@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Minting tokens
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Clone repository. `cd frontend` then run `npm install`
+Start frontend in localhost by `npm start`
 
-Try running some of the following tasks:
+### To deploy contracts
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Clone repository. `npm install`
+Add .env with `PRIVATE_KEY=`
+`npx hardhat compile` to compile all contracts
+`npx hardhat run scripts/deploy.js` to deploy contractws to mumbai(default) network
+
